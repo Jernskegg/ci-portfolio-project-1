@@ -38,4 +38,3 @@
    the color scheme is gonna be neutral gray-scale with hints of orange to highlight 
 
 * Wireframes
-

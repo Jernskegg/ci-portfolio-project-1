@@ -1,0 +1,50 @@
+/* remove standard paddings and margins */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* header */
+
+header {
+    border: 1px solid black;
+    letter-spacing: 2px;
+}
+
+#logo {
+    margin-left: 5px;
+    float: left;
+    font-size: 300%;
+    color: #ff9900;
+}
+
+nav ul {
+    float: right;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    text-transform: uppercase;
+
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #3a3a3a;
+    margin-right: 25px;
+}
+
+#navbar a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+nav li,
+nav h2 {
+    line-height: 75px;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
