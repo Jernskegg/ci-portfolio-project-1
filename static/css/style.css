@@ -190,3 +190,25 @@ footer {
     padding-top: 75px;
     margin: 0 3%;
 }
+
+/* news */
+
+#news-container {
+    column-count: 3;
+    margin: 50px auto;
+    width: 70%;
+}
+
+.news-update {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    margin-bottom: 25px;
+}
+
+.news-update img {
+    width: 100%;
+
+}
