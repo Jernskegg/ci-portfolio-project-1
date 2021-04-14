@@ -10,12 +10,15 @@
 
 /* add fonts to h2 and body */
 
-h2 {
+h2,
+h3 {
     font-family: "Roboto", sans-serif;
 }
 
-p {
+body {
     font-family: "lato", sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
 }
 
 
@@ -27,7 +30,8 @@ header {
 }
 
 #logo {
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
     float: left;
     font-size: 300%;
     color: #ff9900;
@@ -71,12 +75,22 @@ nav h2 {
     overflow: hidden;
 
     position: relative;
+    border-top: 2px solid #9c9c9c;
+    border-bottom: 1px solid #9c9c9c;
 }
 
 #inner-hero {
     width: 100%;
     height: 480px;
-    background: url("/static/images/heroimage.jpg") no-repeat center center;
+    background: url("/static/images/hero-image.jpg") no-repeat center center;
+}
+
+#inner-hero h2 {
+    font-size: 85%;
+    text-align: right;
+    text-transform: uppercase;
+    padding-top: 460px;
+    color: #919191;
 }
 
 /* Studio section */
@@ -85,13 +99,24 @@ hr {
     height: 50px;
 }
 
-.left-divider {
-    float: left;
+.left-divider,
+.right-divider {
     height: 75px;
     width: 80%;
     background: #f9cb9c;
     border: 1px solid #9c9c9c;
+    margin-bottom: 15px;
     border-radius: 0 3px 3px 0;
+}
+
+.left-divider {
+    float: left;
+    border-left: 0;
+}
+
+.right-divider {
+    float: right;
+    border-right: 0;
 }
 
 .left-divider h2 {
@@ -102,11 +127,8 @@ hr {
 
 .right-divider {
     float: right;
-    height: 75px;
-    width: 80%;
-    background: #f9cb9c;
-    border: 1px solid #9c9c9c;
     border-radius: 3px 0 0 3px;
+    border-right: 0;
 }
 
 .right-divider h2 {
@@ -115,17 +137,35 @@ hr {
 }
 
 .info-text {
-    display: inline-block;
     margin: 0 auto;
     width: 60%;
     height: auto;
     margin-left: 20%;
+    margin-top: 15px;
     padding: 10px 0;
 }
 
+.info-text li {
+    height: auto;
+    padding: 10px 0;
+    margin-left: 25px;
+    list-style: none;
+}
+
+
 .info-text img {
+    margin-top: 15px;
     max-width: 100%;
     border-radius: 3px;
+}
+
+#blender {
+    height: 57px;
+}
+
+#video {
+    padding: 15px 0;
+    width: 100%;
 }
 
 /* footer */
