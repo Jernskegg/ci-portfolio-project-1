@@ -127,3 +127,26 @@ hr {
     max-width: 100%;
     border-radius: 3px;
 }
+
+/* footer */
+
+footer {
+    height: 200px;
+    background: #f9cb9c;
+    border-top: 1px solid #9c9c9c;
+}
+
+.social {
+    text-align: center;
+}
+
+.social>li {
+    display: inline;
+}
+
+.social i {
+    font-size: 200%;
+    color: #3a3a3a;
+    padding-top: 75px;
+    margin: 0 3%;
+}
