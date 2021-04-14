@@ -78,3 +78,52 @@ nav h2 {
     height: 480px;
     background: url("/static/images/heroimage.jpg") no-repeat center center;
 }
+
+/* Studio section */
+
+hr {
+    height: 50px;
+}
+
+.left-divider {
+    float: left;
+    height: 75px;
+    width: 80%;
+    background: #f9cb9c;
+    border: 1px solid #9c9c9c;
+    border-radius: 0 3px 3px 0;
+}
+
+.left-divider h2 {
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.right-divider {
+    float: right;
+    height: 75px;
+    width: 80%;
+    background: #f9cb9c;
+    border: 1px solid #9c9c9c;
+    border-radius: 3px 0 0 3px;
+}
+
+.right-divider h2 {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.info-text {
+    display: inline-block;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    padding: 10px 0;
+}
+
+.info-text img {
+    max-width: 100%;
+    border-radius: 3px;
+}
