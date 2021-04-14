@@ -193,6 +193,11 @@ footer {
 
 /* news */
 
+#news-top {
+    margin-top: 15px;
+    text-align: center;
+}
+
 #news-container {
     column-count: 3;
     margin: 50px auto;
@@ -200,15 +205,32 @@ footer {
 }
 
 .news-update {
-    text-align: center;
     display: inline-block;
     width: 100%;
     height: 100%;
-    border: 1px solid;
     margin-bottom: 25px;
 }
 
 .news-update img {
     width: 100%;
+
+}
+
+/* for screen with 1200px width and below*/
+
+@media screen and (max-width: 1200px) {
+
+    #news-container {
+        column-count: 2;
+    }
+}
+
+/* for screen with 750px width and below*/
+
+@media screen and (max-width: 750px) {
+
+    #news-container {
+        column-count: 1;
+    }
 
 }

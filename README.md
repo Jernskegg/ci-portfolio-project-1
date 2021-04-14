@@ -41,7 +41,7 @@
 
 ***
 
-## Futher maintainability
+## Further maintainability
 
 Template to add a new block to the news page
 
