@@ -38,3 +38,21 @@
    the color scheme is gonna be neutral gray-scale with hints of orange to highlight 
 
 * Wireframes
+
+***
+
+## Futher maintainability
+
+Template to add a new block to the news page
+
+Add this to append to the "news.html" under section with the id "news-container"
+
+      <article class="news-update">
+            <img src="" alt="">
+            <div>
+                <h3></h3>
+                <p>
+                </p>
+            </div>
+        </article>
+ 
