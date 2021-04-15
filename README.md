@@ -39,6 +39,42 @@
 
 * Wireframes
 
+   ### Dekstop sized wireframes
+
+   <img src="docs/wireframes/homedesktopsize.png" alt="wireframe for desktop sized home page" width="200">
+   <img src="docs/wireframes/newsdesktopsize.png" alt="wireframe for desktop sized news page" width="200">
+   <img src="docs/wireframes/contactdesktopsize.png" alt="wireframe for desktop sized contact page" width="200">
+
+   ### Handheld sized wireframes
+
+   <img src="docs/wireframes/homephonesize.png" alt="wireframe for handheld sized home" width="150">
+   <img src="docs/wireframes/newsphonesize.png" alt="wireframe for handheld sized home" width="150">
+   <img src="docs/wireframes/contactphonesize.png" alt="wireframe for handheld sized home" width="150">
+***
+
+## Deployement
+
+### Issues
+
+During deployment all external links worked, but all media and images did not.
+This was due to making the incorrect links such as **"/static/*"** to resolve this issue I made sure to put correct pathways to resources.
+
+ ### Screenshots from deployed page
+
+width 1080
+
+<img src="docs/screenshots/shot-home-1080.png" alt="screenshot deskop home page" width="200">
+<img src="docs/screenshots/shot-news-1080.png" alt="screenshot deskop news page" width="200">
+<img src="docs/screenshots/shot-contact-1080.png" alt="screenshot deskop contact page" width="200">
+
+width 720
+
+<img src="docs/screenshots/shot-home-720.png" alt="screenshot handheld home page" width="150">
+<img src="docs/screenshots/shot-news-720.png" alt="screenshot handheld news page" width="150">
+<img src="docs/screenshots/shot-contact-720.png" alt="screenshot handheld contact page" width="150">
+
+ 
+
 ***
 
 ## Further maintainability
@@ -56,3 +92,4 @@ Add this to append to the "news.html" under section with the id "news-container"
             </div>
         </article>
  
+
