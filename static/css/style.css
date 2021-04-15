@@ -94,7 +94,7 @@ nav li,
     color: #919191;
 }
 
-/* Studio section */
+/* Studio section and contact */
 
 hr {
     height: 50px;
@@ -144,6 +144,10 @@ hr {
     margin-left: 20%;
     margin-top: 15px;
     padding: 10px 0;
+}
+
+.info-text h3 {
+    margin: 15px 0;
 }
 
 .info-text li {
@@ -271,8 +275,8 @@ footer {
 
     }
 
-    nav li {
-        display: clear;
+    nav ul {
+        float: left;
     }
 
     .left-divider,
