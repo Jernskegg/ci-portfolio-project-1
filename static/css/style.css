@@ -168,27 +168,37 @@ hr {
     width: 100%;
 }
 
-/* footer */
+/* contact form and work application form */
 
-footer {
-    height: 200px;
+.input-form {
+    margin-left: 20%;
+    max-width: 10%;
+    position: relative;
+}
+
+.text-input {
+    border: 1px solid #9c9c9c;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.text-input:hover {
+    border-color: #f9cb9c;
+}
+
+.form-button {
+    margin: 15px 30px;
+    height: 50px;
+    width: 300px;
     background: #f9cb9c;
-    border-top: 1px solid #9c9c9c;
+    border: 1px solid #9c9c9c;
+    border-radius: 3px;
 }
 
-.social {
-    text-align: center;
-}
-
-.social>li {
-    display: inline;
-}
-
-.social i {
-    font-size: 200%;
-    color: #3a3a3a;
-    padding-top: 75px;
-    margin: 0 3%;
+.form-button:hover {
+    background: #9c9c9c;
+    border-color: #f9cb9c;
+    font-size: 100%;
 }
 
 /* news */
@@ -215,6 +225,32 @@ footer {
     width: 100%;
 
 }
+
+
+
+/* footer */
+
+footer {
+    height: 200px;
+    background: #f9cb9c;
+    border-top: 1px solid #9c9c9c;
+}
+
+.social {
+    text-align: center;
+}
+
+.social>li {
+    display: inline;
+}
+
+.social i {
+    font-size: 200%;
+    color: #3a3a3a;
+    padding-top: 75px;
+    margin: 0 3%;
+}
+
 
 /* for screen with 1200px width and below*/
 
