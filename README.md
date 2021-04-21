@@ -18,11 +18,11 @@
 
 * Features
 
-    * Navigation bar
-    * footer
-    * news feeds with video
-    * Subscribe to news
-    * contact form on contact page
+   * Navigation bar
+   * footer
+   * news feeds with video
+   * Subscribe to news
+   * contact form on contact page
 
 * Future Features
 
@@ -52,12 +52,28 @@
    <img src="docs/wireframes/contactphonesize.png" alt="wireframe for handheld sized home" width="150">
 ***
 
-## Deployement
+## Deployement phase
 
+* Technology
+* testing
+   * code validation
+   * test cases (user story based with screenshots)
+   * fixed bugs
+
+      During deployment all external links worked, but all media and images did not.
+      This was due to making the incorrect links such as **"/static/*"**.
+      To resolve this issue I made sure to put correct pathways to resources.
+
+
+   * supported screens and browsers
+
+* Deployment
+   * via gitpod
+   * via github pages
+* credits
 ### Issues
 
-During deployment all external links worked, but all media and images did not.
-This was due to making the incorrect links such as **"/static/*"** to resolve this issue I made sure to put correct pathways to resources.
+
 
  ### Screenshots from deployed page
 
