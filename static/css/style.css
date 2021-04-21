@@ -21,7 +21,6 @@ body {
     color: #3a3a3a;
 }
 
-
 /* header */
 
 header {
@@ -45,7 +44,6 @@ nav ul {
 nav li {
     display: inline;
     text-transform: uppercase;
-
 }
 
 #navbar a {
@@ -157,7 +155,6 @@ hr {
     list-style: none;
 }
 
-
 .info-text img {
     margin-top: 15px;
     max-width: 100%;
@@ -228,10 +225,7 @@ hr {
 
 .news-update img {
     width: 100%;
-
 }
-
-
 
 /* footer */
 
@@ -255,7 +249,6 @@ footer {
     padding-top: 75px;
     margin: 0 3%;
 }
-
 
 /* for screen with 1200px width and below*/
 
