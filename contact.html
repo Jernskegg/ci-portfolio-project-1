@@ -12,22 +12,23 @@
 <body>
     <header>
         <a href="index.html">
-            <h2 id="logo">
+            <h2 class="logo">
                 Fictional Game Studio
             </h2>
         </a>
 
         <nav>
-            <ul id="navbar">
+            <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="news.html">News</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="contact.html#career">Career</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="outer-hero">
-        <div id="inner-hero">
+    <section class="outer-hero">
+        <div class="inner-hero">
             <h2>psychofladoodle from Pixabay</h2>
         </div>
     </section>
@@ -44,20 +45,17 @@
             </p>
         </div>
         <form action="https://formdump.codeinstitute.net/" method="post" class="input-form">
-            <label for="fname">First name</label>
-            <input type="text" id="fname" name="firt_name" class="text-input" required>
 
-            <label for="lname">Last name</label>
-            <input type="text" id="lname" name="last_name" class="text-input" required>
+            <input type="text" id="fname" name="firt_name" class="text-input" placeholder="First name" required>
 
-            <label for="email">Email address</label>
-            <input type="email" id="email" name="email_address" class="text-input" required>
+            <input type="text" id="lname" name="last_name" class="text-input" placeholder="Last name" required>
 
-            <label for="topic">Topic</label>
-            <input type="text" id="topic" name="inquery" class="text-input" required>
+            <input type="email" id="email" name="email_address" class="text-input" placeholder="Email address" required>
 
-            <label for="msg">Message</label>
-            <textarea id="msg" name="message" class="text-input" cols="40" rows="10" required></textarea>
+            <input type="text" id="topic" name="inquery" class="text-input" placeholder="Topic" required>
+
+            <textarea id="msg" name="message" class="text-input" cols="40" rows="10"
+                placeholder="Write your question here..." required></textarea>
 
             <input type="submit" class="form-button" value="Ask away!">
         </form>
@@ -65,7 +63,7 @@
 
     <section>
         <div class="right-divider">
-            <h2>Vacant jobs</h2>
+            <h2 id=career>Careers</h2>
         </div>
         <div class="info-text">
             <h3>Here are the vacant jobs</h3>
@@ -86,20 +84,17 @@
             </ul>
         </div>
         <form action="https://formdump.codeinstitute.net/" method="post" class="input-form">
-            <label for="w-fname">First name</label>
-            <input type="text" id="w-fname" name="firt_name" class="text-input" required>
+            <input type="text" id="w-fname" name="firt_name" class="text-input" placeholder="First name" required>
 
-            <label for="w-lname">Last name</label>
-            <input type="text" id="w-lname" name="last_name" class="text-input" required>
+            <input type="text" id="w-lname" name="last_name" class="text-input" placeholder="Last name" required>
 
-            <label for="w-email">Email address</label>
-            <input type="email" id="w-email" name="email_address" class="text-input" required>
+            <input type="email" id="w-email" name="email_address" class="text-input" placeholder="Email address"
+                required>
 
-            <label for="work">position</label>
-            <input type="text" id="work" name="position" class="text-input" required>
+            <input type="text" id="work" name="position" class="text-input" placeholder="position" required>
 
-            <label for="personal">Personal letter</label>
-            <textarea id="personal" name="p_letter" class="text-input" cols="40" rows="10" required></textarea>
+            <textarea id="personal" name="p_letter" class="text-input" cols="40" rows="10"
+                placeholder="Please describe yourself here and why you want you work for us..." required></textarea>
 
             <input type="submit" class="form-button" value="Send Application!">
         </form>
