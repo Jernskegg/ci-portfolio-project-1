@@ -41,15 +41,17 @@
 
    ### Dekstop sized wireframes
 
-   <img src="docs/wireframes/homedesktopsize.png" alt="wireframe for desktop sized home page" width="200">
-   <img src="docs/wireframes/newsdesktopsize.png" alt="wireframe for desktop sized news page" width="200">
-   <img src="docs/wireframes/contactdesktopsize.png" alt="wireframe for desktop sized contact page" width="200">
+   <img src="docs/wireframes/homedesktopsize.png" alt="wireframe for desktop sized home page" width="100">
+   <img src="docs/wireframes/newsdesktopsize.png" alt="wireframe for desktop sized news page" width="100">
+   <img src="docs/wireframes/contactdesktopsize.png" alt="wireframe for desktop sized contact page" width="100">
 
    ### Handheld sized wireframes
 
-   <img src="docs/wireframes/homephonesize.png" alt="wireframe for handheld sized home" width="150">
-   <img src="docs/wireframes/newsphonesize.png" alt="wireframe for handheld sized home" width="150">
-   <img src="docs/wireframes/contactphonesize.png" alt="wireframe for handheld sized home" width="150">
+   <img src="docs/wireframes/homephonesize.png" alt="wireframe for handheld sized home" width="100">
+   <img src="docs/wireframes/newsphonesize.png" alt="wireframe for handheld sized home" width="100">
+   <img src="docs/wireframes/contactphonesize.png" alt="wireframe for handheld sized home" width="100">
+
+   html img tag was used to downscale the images.
 ***
 
 ## Deployement phase
@@ -57,6 +59,10 @@
 * Technology
 * testing
    * code validation
+   
+      Code was validated using W3 html and JigSaw css validator.
+      I frequantly checked the code so it stayed correct during the progress of developing the web application
+
    * test cases (user story based with screenshots)
    * fixed bugs
 
@@ -71,6 +77,16 @@
    * via gitpod
    * via github pages
 * credits
+
+   Hero image: Image by [psychofladoodle](https://pixabay.com/users/psychofladoodle) from [Pixabay](https://pixabay.com)
+
+   application screenshots were taken from actual products
+     * [blender](https://www.blender.org/)
+     * [krita](https://krita.org/)
+     * [Audacity](https://www.audacityteam.org/)
+
+   Font script was provided by [Font awesome](https://fontawesome.com/)
+
 ### Issues
 
 
@@ -79,15 +95,15 @@
 
 width 1080
 
-<img src="docs/screenshots/shot-home-1080.png" alt="screenshot deskop home page" width="200">
-<img src="docs/screenshots/shot-news-1080.png" alt="screenshot deskop news page" width="200">
-<img src="docs/screenshots/shot-contact-1080.png" alt="screenshot deskop contact page" width="200">
+<img src="docs/screenshots/shot-home-1080.png" alt="screenshot deskop home page" width="100">
+<img src="docs/screenshots/shot-news-1080.png" alt="screenshot deskop news page" width="100">
+<img src="docs/screenshots/shot-contact-1080.png" alt="screenshot deskop contact page" width="100">
 
 width 720
 
-<img src="docs/screenshots/shot-home-720.png" alt="screenshot handheld home page" width="150">
-<img src="docs/screenshots/shot-news-720.png" alt="screenshot handheld news page" width="150">
-<img src="docs/screenshots/shot-contact-720.png" alt="screenshot handheld contact page" width="150">
+<img src="docs/screenshots/shot-home-720.png" alt="screenshot handheld home page" width="100">
+<img src="docs/screenshots/shot-news-720.png" alt="screenshot handheld news page" width="100">
+<img src="docs/screenshots/shot-contact-720.png" alt="screenshot handheld contact page" width="100">
 
  
 

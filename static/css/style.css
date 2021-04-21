@@ -49,8 +49,7 @@ nav li {
 .navbar a {
     text-decoration: none;
     color: #3a3a3a;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin: 0 25px;
 }
 
 .navbar a:hover {
@@ -255,6 +254,7 @@ footer {
     margin: 0 3%;
 }
 
+/* Screen support area */
 /* for screen with 1200px width and below*/
 
 @media screen and (max-width: 1200px) {
@@ -298,5 +298,31 @@ footer {
 @media screen and (max-width: 680px) {
     .news-container {
         column-count: 1;
+    }
+}
+
+/* for screens with 500 width or below */
+
+@media screen and (max-width: 500px) {
+    .logo {
+        font-size: 150%;
+    }
+
+    .navbar a {
+        font-size: 75%;
+        margin: 0 10px;
+    }
+}
+
+/* for screens with 330 width or below */
+
+@media screen and (max-width: 330px) {
+    .logo {
+        font-size: 100%;
+    }
+
+    .navbar a {
+        font-size: 75%;
+        margin: 0 5px;
     }
 }
