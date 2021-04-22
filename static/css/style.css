@@ -26,8 +26,13 @@ p {
 /* header */
 
 header {
-    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid #9c9c9c;
     letter-spacing: 2px;
+    background: white;
 }
 
 .logo {
@@ -69,6 +74,8 @@ nav li,
 /* Hero image */
 
 .outer-hero {
+    padding-top: 79px;
+    /* padding used for the fixed header */
     width: 100%;
     height: 480px;
     overflow: hidden;
