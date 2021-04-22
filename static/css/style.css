@@ -8,6 +8,7 @@
     border: 0;
 }
 
+
 /* add fonts to h2 and body */
 
 h2,
@@ -214,6 +215,14 @@ textarea {
     font-size: 100%;
 }
 
+.big {
+    display: block;
+}
+
+.small {
+    display: none;
+}
+
 /* news */
 
 .news-top {
@@ -267,6 +276,7 @@ footer {
 }
 
 /* Screen support area */
+
 /* for screen with 1200px width and below*/
 
 @media screen and (max-width: 1200px) {
@@ -335,5 +345,17 @@ footer {
     .navbar a {
         font-size: 75%;
         margin: 0 5px;
+    }
+
+    .form-button {
+        width: 200px;
+    }
+
+    .big {
+        display: none;
+    }
+
+    .small {
+        display: block;
     }
 }

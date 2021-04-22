@@ -53,16 +53,19 @@
         <!--====contact-form====-->
         <form action="confirm.html" class="input-form">
 
-            <input type="text" id="fname" name="first_name" class="text-input" placeholder="First name" required>
+            <input type="text" name="first_name" class="text-input" placeholder="First name" required>
 
-            <input type="text" id="lname" name="last_name" class="text-input" placeholder="Last name" required>
+            <input type="text" name="last_name" class="text-input" placeholder="Last name" required>
 
-            <input type="email" id="email" name="email_address" class="text-input" placeholder="Email address" required>
+            <input type="email" name="email_address" class="text-input" placeholder="Email address" required>
 
-            <input type="text" id="topic" name="inquery" class="text-input" placeholder="Topic" required>
+            <input type="text" name="inquery" class="text-input" placeholder="Topic" required>
 
-            <textarea id="msg" name="message" class="text-input" cols="40" rows="10"
-                placeholder="Write your question here..." required></textarea>
+            <textarea name="message" class="text-input big" cols="40" rows="10"
+                placeholder="Write your question here..."></textarea>
+
+            <textarea name="message" class="text-input small" cols="30" rows="10"
+                placeholder="Write your question here..."></textarea>
 
             <input type="submit" class="form-button" value="Ask away!">
         </form>
