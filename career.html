@@ -23,8 +23,8 @@
             <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="news.html">News</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-                <li><a href="career.html">Career</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="career.html" class="active">Career</a></li>
             </ul>
         </nav>
     </header>
@@ -36,35 +36,47 @@
     </section>
     <!--====content====-->
 
-    <!--====contact-section====-->
+    <!--====Career-section====-->
     <section>
         <hr>
         <!--====divider====-->
         <div class="left-divider">
-            <h2>Contact</h2>
+            <h2 id=career>Careers</h2>
         </div>
-        <!--====contact-text====-->
+        <!--====available-career-text====-->
         <div class="info-text">
-            <h3>How can we help you?</h3>
+            <h3>Here are the vacant jobs</h3>
+            <p> We are happy that you would like to work for us!</p>
+            <br>
             <p>
-                Please fill in the form below and we will contact you as soon as possible.
+                We are currently hiring for the following positions.
             </p>
+            <ul>
+                <li>Senior Software developer</li>
+                <li>junior Software developer</li>
+                <li>Lead sound and effect developer</li>
+                <li>Sound and Effects Artist</li>
+                <li>3D Artists</li>
+                <li>2D Artists</li>
+                <li>Character concept Artist</li>
+                <li>Accountant</li>
+            </ul>
         </div>
-        <!--====contact-form====-->
+        <!--====Career-form====-->
         <form action="confirm.html" class="input-form">
+            <input type="text" id="w-fname" name="first_name" class="text-input" placeholder="First name" required>
 
-            <input type="text" id="fname" name="first_name" class="text-input" placeholder="First name" required>
+            <input type="text" id="w-lname" name="last_name" class="text-input" placeholder="Last name" required>
 
-            <input type="text" id="lname" name="last_name" class="text-input" placeholder="Last name" required>
+            <input type="email" id="w-email" name="email_address" class="text-input" placeholder="Email address"
+                required>
 
-            <input type="email" id="email" name="email_address" class="text-input" placeholder="Email address" required>
+            <input type="text" id="work" name="position" class="text-input" placeholder="position" required>
 
-            <input type="text" id="topic" name="inquery" class="text-input" placeholder="Topic" required>
+            <textarea id="personal" name="p_letter" class="text-input" cols="40" rows="10"
+                placeholder="Please describe yourself here and why you want you work for us..." required></textarea>
 
-            <textarea id="msg" name="message" class="text-input" cols="40" rows="10"
-                placeholder="Write your question here..." required></textarea>
-
-            <input type="submit" class="form-button" value="Ask away!">
+            <input type="submit" onclick="" class="form-button" value="Send Application!">
         </form>
         <hr>
     </section>
