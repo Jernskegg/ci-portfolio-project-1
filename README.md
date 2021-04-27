@@ -1,4 +1,8 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
+Casper Hille
+
+Full-Stack Development course (5p)
 ***
 
 ## planning phase
@@ -66,12 +70,16 @@
       Code was validated using W3 html and JigSaw css validator without warning or errors.
 
    * test cases (user story based with screenshots)
+
+      Seperated career and contact pages to make easier to find the users goals.
+
+      added confirmation page for forms on career and Contact pages.
+
    * fixed bugs
 
       During deployment all external links worked, but all media and images did not.
       This was due to making the incorrect links such as **"/static/*"**.
       To resolve this issue I made sure to put correct pathways to resources.
-
 
    * supported screens and browsers
 
@@ -117,6 +125,8 @@
      * [Audacity](https://www.audacityteam.org/)
 
    Font script was provided by [Font awesome](https://fontawesome.com/)
+
+   Video was made by me using Blender.
 
  ### Screenshots from deployed page
 
