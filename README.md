@@ -10,24 +10,27 @@
 
 * User Stories
 
-   As a game enthusiast, I want check on upcoming game so that the I know when to expect sthe game to be released and what to expect of the game.
+   As a user, I want check on upcoming game so that the I know when to expect sthe game to be released and what to expect of the game.
 
-   As a unemployed, I want find an available spot so that I can apply for work.
+   As a user, I want find an available spot so that I can apply for work.
 
-   As a journalist, I want to contact someone so that I can book for an interview.
+   As a user, I want to contact someone so that I can book for an interview.
 
 * Features
 
-   * Navigation bar
+   * Fixed Navigation bar
    * footer
-   * news feeds with video
-   * Subscribe to news
+   * news feeds 
    * contact form on contact page
+   * application form on career page
 
 * Future Features
 
     * interactive news feed
     * Slideshow gallery
+    * subscripion for news feed
+    * add files to career application
+    * 4k support
 
 * Typography and Color Scheme
 
@@ -51,7 +54,7 @@
    <img src="docs/wireframes/newsphonesize.png" alt="wireframe for handheld sized home" width="100">
    <img src="docs/wireframes/contactphonesize.png" alt="wireframe for handheld sized home" width="100">
 
-   html img tag was used to downscale the images.
+   *html img tag was used to downscale the images.*
 ***
 
 ## Deployement phase
@@ -60,8 +63,7 @@
 * testing
    * code validation
    
-      Code was validated using W3 html and JigSaw css validator.
-      I frequantly checked the code so it stayed correct during the progress of developing the web application
+      Code was validated using W3 html and JigSaw css validator without warning or errors.
 
    * test cases (user story based with screenshots)
    * fixed bugs
@@ -72,6 +74,35 @@
 
 
    * supported screens and browsers
+
+      The page is design to have a maximum of 1920x1080.
+
+      4k resolution: hero image, news images fall out of proportions and form deforms.
+
+      desktop 1920x1080 to 1920x290. works as intended.
+
+      the following devices has been tested on chrome developer tool emulator and worked as intended.
+      * Galaxy Note II
+      * Kindle Fire HDX
+      * Pixel 2
+      * iPhone 5/SE
+      * iPhone 6/7/8 Plus
+      * iPhone X
+      * iPad pro
+      * Surface Duo
+      * Galaxy Fold
+
+      the following devices has been tested on Firfox developer tool emulator and worked as intended.
+      * galaxy S9
+      * iPad
+      * iPhone 6/7/8 Plus iOS 11
+      * iPhone 6/7/8 iOS 11
+      * iPhone X/XS iOS 12
+      * Kindle Fire HDX Linux
+
+      Microsoft Edge works as intended.
+
+      Internet Explorer does not support the video on homepage and links opens in Microsoft Edge.
 
 * Deployment
    * via gitpod
@@ -86,10 +117,6 @@
      * [Audacity](https://www.audacityteam.org/)
 
    Font script was provided by [Font awesome](https://fontawesome.com/)
-
-### Issues
-
-
 
  ### Screenshots from deployed page
 
@@ -111,7 +138,7 @@ width 720
 
 ## Further maintainability
 
-Template to add a new block to the news page
+Template to add a new block to the news page**
 
 Add this to append to the "news.html" under section with the id "news-container"
 
@@ -125,3 +152,4 @@ Add this to append to the "news.html" under section with the id "news-container"
         </article>
  
 
+Comments for every section.
