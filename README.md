@@ -8,9 +8,9 @@ Full-Stack Development course (5p)
 ## planning phase
 * Purpose of the Project
 
-   the purpose of the this project is to make a game developer website.
-   this webpage is for a Fictional game developer to announce their games using the news feed and tell about them self
-   it will also give the contact information about inquiries and available spot for future employees.
+   The purpose of this project is to make a game developer website.
+   This webpage is for a Fictional game developer to announce their games using the news feed and tell about them self
+   it will also give the contact information about inquiries and available spots for future employees.
 
 * User Stories
 
@@ -32,13 +32,13 @@ Full-Stack Development course (5p)
 
     * interactive news feed
     * Slideshow gallery
-    * subscripion for news feed
+    * subscription for news feed
     * add files to career application
     * 4k support
 
 * Typography and Color Scheme
 
-   This webpage is going to use "Roboto" for headers and "Lato" for paragraphs and smaller text, this is due to it's readability and it's also hosted on Googlefonts
+   This webpage is going to use "Roboto" for headers and "Lato" for paragraphs and smaller text, this is due to its readability and it's also hosted on Google Fonts
 
    It is also going to some AwesomeFont for some visual and intuitive symbols
 
@@ -70,9 +70,9 @@ Full-Stack Development course (5p)
 
    * test cases (user story based with screenshots)
 
-      Seperated career and contact pages to make easier to find the users goals.
+      Separated career and contact pages to make it easier to find the users goals.
 
-      added confirmation page for forms on career and Contact pages.
+      Added confirmation page for forms on career and Contact pages.
 
    * fixed bugs
 
@@ -82,13 +82,13 @@ Full-Stack Development course (5p)
 
    * supported screens and browsers
 
-      The page is design to have a maximum of 1920x1080 screen support.
+      The page is designed to have a maximum of 1920x1080 screen support.
 
       4k resolution: hero image, news images fall out of proportions and form deforms
 
       desktop 1920x1080 to 1920x290. works as intended.
 
-      the following devices has been tested on chrome developer tool emulator and worked as intended.
+      the following devices have been tested on chrome developer tool emulator and worked as intended.
       * Galaxy Note II
       * Kindle Fire HDX
       * Pixel 2
@@ -99,7 +99,7 @@ Full-Stack Development course (5p)
       * Surface Duo
       * Galaxy Fold
 
-      the following devices has been tested on Firfox developer tool emulator and worked as intended.
+      the following devices have been tested on Firefox developer tool emulator and worked as intended.
       * galaxy S9
       * iPad
       * iPhone 6/7/8 Plus iOS 11
@@ -109,7 +109,7 @@ Full-Stack Development course (5p)
 
       Microsoft Edge works as intended.
 
-      Internet Explorer does not support the video on homepage and links opens in Microsoft Edge.
+      Internet Explorer does not support the video on homepage and links open in Microsoft Edge.
 
 * Deployment
    * via gitpod
@@ -131,15 +131,15 @@ Full-Stack Development course (5p)
 
 width 1080
 
-<img src="docs/screenshots/shot-home-1080.png" alt="screenshot deskop home page" width="100">
-<img src="docs/screenshots/shot-news-1080.png" alt="screenshot deskop news page" width="100">
-<img src="docs/screenshots/shot-contact-1080.png" alt="screenshot deskop contact page" width="100">
+   <img src="docs/screenshots/shot-home-1080.png" alt="screenshot desktop home page" width="100">
+   <img src="docs/screenshots/shot-news-1080.png" alt="screenshot desktop news page" width="100">
+   <img src="docs/screenshots/shot-contact-1080.png" alt="screenshot desktop contact page" width="100">
 
 width 720
 
-<img src="docs/screenshots/shot-home-720.png" alt="screenshot handheld home page" width="100">
-<img src="docs/screenshots/shot-news-720.png" alt="screenshot handheld news page" width="100">
-<img src="docs/screenshots/shot-contact-720.png" alt="screenshot handheld contact page" width="100">
+   <img src="docs/screenshots/shot-home-720.png" alt="screenshot handheld home page" width="100">
+   <img src="docs/screenshots/shot-news-720.png" alt="screenshot handheld news page" width="100">
+   <img src="docs/screenshots/shot-contact-720.png" alt="screenshot handheld contact page" width="100">
 
  
 
