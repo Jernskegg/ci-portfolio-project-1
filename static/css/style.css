@@ -322,7 +322,7 @@ footer {
     }
 }
 
-/* for screens with 500 width or below */
+/* for screens with 500px width or below */
 
 @media screen and (max-width: 500px) {
     .logo {
@@ -335,7 +335,7 @@ footer {
     }
 }
 
-/* for screens with 330 width or below */
+/* for screens with 330px width or below */
 
 @media screen and (max-width: 330px) {
     .logo {
@@ -357,5 +357,18 @@ footer {
 
     .small {
         display: block;
+    }
+}
+
+/* for screens with more than 1921px width */
+
+@media screen and (min-width: 1921px) {
+
+    .news-container {
+        column-count: 4;
+    }
+
+    .inner-hero {
+        background: url("../images/hero-image-big.jpg") no-repeat center center;
     }
 }

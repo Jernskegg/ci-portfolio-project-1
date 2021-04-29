@@ -58,7 +58,6 @@ Full-Stack Development course (5p)
    <img src="docs/wireframes/newsphonesize.png" alt="wireframe for handheld sized home" width="100">
    <img src="docs/wireframes/contactphonesize.png" alt="wireframe for handheld sized home" width="100">
 
-   *html img tag was used to downscale the images.*
 ***
 
 ## Deployement phase
@@ -83,9 +82,9 @@ Full-Stack Development course (5p)
 
    * supported screens and browsers
 
-      The page is design to have a maximum of 1920x1080.
+      The page is design to have a maximum of 1920x1080 screen support.
 
-      4k resolution: hero image, news images fall out of proportions and form deforms.
+      4k resolution: hero image, news images fall out of proportions and form deforms
 
       desktop 1920x1080 to 1920x290. works as intended.
 
@@ -163,3 +162,11 @@ Add this to append to the "news.html" under section with the id "news-container"
  
 
 Comments for every section.
+
+***
+## fixes and workarounds
+   * added partial 4k support.
+
+         add a big resolution hero image.
+         Changed news columns from 3 to 4.
+   
