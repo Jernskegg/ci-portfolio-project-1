@@ -170,3 +170,9 @@ Comments for every section.
          add a big resolution hero image.
          Changed news columns from 3 to 4.
    
+
+***
+## My personal achievements and what I feel I need to work on.
+   * I wanted to learn to use the git commits and use it more often. I have realized I should write down all content that needs a fix or correction so I can have them on separate commits to make it more clear on what I have done between each commit.
+ 
+   * I have learnt how to plan and structure a web application more efficiently, it can still be greatly improved.
