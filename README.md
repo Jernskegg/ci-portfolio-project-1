@@ -113,7 +113,15 @@ Full-Stack Development course (5p)
 
 * Deployment
    * via gitpod
+ 
+      During development I used Gitpod built-in "python3 -m http.server" command and then I could change it preview the web application during development. 
+      Then I made the port public and then I could test the web application
+ 
    * via github pages
+ 
+      Once I was quite happy with my progress I activated github pages by going to the repositories settings enabled pages and then had it show the master branch files. This is also where I did all the testing since this is where the final product is shown.
+
+
 * credits
 
    Hero image: Image by [psychofladoodle](https://pixabay.com/users/psychofladoodle) from [Pixabay](https://pixabay.com)
