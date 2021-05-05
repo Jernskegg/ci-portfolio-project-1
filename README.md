@@ -3,7 +3,6 @@
 ## Casper Hille
 
 ## Full-Stack Development course (5p) | Portfolio Project 1
-***
 
 # Purpose of the Project
 
@@ -13,9 +12,9 @@
 
 # User Stories
 
-   As a user, I want check on upcoming game so that the I know when to expect sthe game to be released and what to expect of the game.
+   As a user, I want to check on upcoming games so that I know when to expect the game to be released and what to expect of the game.
 
-   As a user, I want find an available spot so that I can apply for work.
+   As a user, I want to find an available spot so that I can apply for work.
 
    As a user, I want to contact someone so that I can book for an interview.
 
@@ -23,27 +22,47 @@
 
    ### Fixed Navigation bar
 
-   
+   The page has a navigation bar that is sticky and will always stay on top of the page. 
+   This is also where the user can select between four different options to navigate through the webpage.
 
    ### footer
 
+   the page offers a footer containing social links.
+
    ### news feeds 
+
+   The news page contains a news feed where the user would be able to see upcoming and old news.
 
    ### contact form on contact page
 
+   The contact page contains a form where the user can input their user details and then send it using the button.
+
    ### application form on career page
+
+   The career page contains a form where the user can input their user details and then send it using the button.
 
 # Future Features
 
-   interactive news feed
+## interactive news feed
 
-   Slideshow gallery
+Zoom-in feature when you hover your mouse over the specified news tile.
+## Slideshow gallery
 
-   subscription for news feed
+A gallery to show of work
 
-   add files to career application
+## subscription for news feed
 
-   4k support
+a form and a submit button where users opt-in for email updates of the news.
+
+## add files to career application
+
+A file upload system so the user will be able to send a CV with the application for work.
+
+## full 4k support
+add more features to suit a full 4k screen.
+
+## Games section
+
 
 # Typography and Color Scheme
 
@@ -55,45 +74,84 @@
 
 # Wireframes
 
-   ## Dekstop sized wireframes
+   ## Desktop sized wireframes
 
-   <img src="docs/wireframes/homedesktopsize.png" alt="wireframe for desktop sized home page" width="100">
-   <img src="docs/wireframes/newsdesktopsize.png" alt="wireframe for desktop sized news page" width="100">
-   <img src="docs/wireframes/contactdesktopsize.png" alt="wireframe for desktop sized contact page" width="100">
+   [Home page](docs/wireframes/homedesktopsize.png)
 
-   ### Handheld sized wireframes
+   [News page](docs/wireframes/newsdesktopsize.png)
 
-   <img src="docs/wireframes/homephonesize.png" alt="wireframe for handheld sized home" width="100">
-   <img src="docs/wireframes/newsphonesize.png" alt="wireframe for handheld sized home" width="100">
-   <img src="docs/wireframes/contactphonesize.png" alt="wireframe for handheld sized home" width="100">
+   [Contact page](docs/wireframes/contactdesktopsize.png)
 
-***
+   ## Handheld sized wireframes
 
+   [Home page](docs/wireframes/homephonesize.png)
+
+   [News page](docs/wireframes/newsphonesize.png)
+
+   [Contact page](docs/wireframes/contactphonesize.png)
 
 # Technology
+## html
+   Html was used to put structure to the web-page.
+## css
+   CSS is used to put color and form to the html files
+## Gitpod
+   Gitpod is the IDE that i've used to write the underlying code for the webpage.
+   Why I chose this for ease of use and its connectability with github and due to it being used during the Code Institute's walkthrough project.
+## AwesomeFont
+   Awesome font is a script that allows developer to use special characters on the web-page. there is a wide range of variety and it as simple copy and pasting the link provided on their webpage.
 
+## GoogleFonts
+   GooleFonts is a cloud font service where the fonts are stored on Googles cloud service which grants the developer a wider range of fonts to use on the web-page and not having to rely on the user to have the font installed.
 # testing
    ## code validation
    
-     Code was validated using W3 html and JigSaw css validator without warning or errors.
+   Code was validated using W3 html and JigSaw css validator without warning or errors.
 
    ## test cases (user story based with screenshots)
+   
+* ### As a user, I want to check on upcoming games so that I know when to expect the game to be released and what to expect of the game.
 
-   Separated career and contact pages to make it easier to find the users goals.
+   I would load into the [home page(desktop)](docs/screenshots/shot-home-1080.png) or [home page(phone)](docs/screenshots/shot-home-720.png) and then I have to click on the news button in the navigation bar and there I will be able to get to the [news page(desktop)](docs/screenshots/shot-news-1080.png) or [news page(mobile)](docs/screenshots/shot-news-720.png) to see the news feed.
 
-   Added confirmation page for forms on career and Contact pages.
+   [Image of where need to press](docs/screenshots/testcase-news.png)
+      
 
-   ## fixed bugs
-   1.
-      During deployment all external links worked, but all media and images did not.
-      This was due to making the incorrect links such as **"/static/*"**.
-      To resolve this issue I made sure to put correct pathways to resources.
+* ### As a user, I want to find an available spot so that I can apply for work.
+   
+   
+   I would load into the [home page(desktop)](docs/screenshots/shot-home-1080.png) or [home page(phone)](docs/screenshots/shot-home-720.png) and then I have to click on the career button in the navigation bar and there I will be able to get to the [career page(desktop)](docs/screenshots/shot-career-1080.png) or [career page(mobile)](docs/screenshots/shot-career-720.png) to see the work application form.
+   Here I would be able to fill in all details to send.
 
-   2.
-      added partial 4k support.
+   [Image of where need to press](docs/screenshots/testcase-career.png)
+
+   [Image of where I need to fill im the form](docs/screenshots/testcase-career-form.png)
+
+* ### As a user, I want to contact someone so that I can book for an interview.
+
+I would load into the [home page(desktop)](docs/screenshots/shot-home-1080.png) or [home page(phone)](docs/screenshots/shot-home-720.png) and then I have to click on the contact button in the navigation bar and there I will be able to get to the [career page(desktop)](docs/screenshots/shot-contact-1080.png) or [career page(mobile)](docs/screenshots/shot-contact-720.png) to see the contact form.
+Here I would be able to fill in all details to send.
+
+   [Image of where need to press](docs/screenshots/testcase-contact.png)
+
+   [image of where I need to fill im the form](docs/screenshots/testcase-contact-form.png)
+   
+
+## fixed bugs and issues found.
+   1. During deployment all external links worked, but all media and images did not.
+   his was due to making the incorrect links such as **"/static/*"**.
+   To resolve this issue I made sure to put correct pathways to resources.
+
+   2. Separated career and contact pages to make it easier to find the users goals.
+
+   3. Added confirmation page for forms on career and Contact pages.
+
+   4. added partial 4k support.
 
       add a big resolution hero image.
       Changed news columns from 3 to 4.
+   
+   5. Bug where on a galaxy s5 has a horizontal scrolling.
    
    ## supported screens and browsers
    The page is designed to have a maximum of 1920x1080 screen support.
@@ -102,7 +160,7 @@
 
    desktop 1920x1080 to 1920x290. works as intended.
 
-   the following devices have been tested on chrome developer tool emulator and worked as intended.
+   The following devices have been tested on chrome developer tool emulator and worked as intended.
    * Galaxy Note II
    * Kindle Fire HDX
    * Pixel 2
@@ -113,7 +171,7 @@
    * Surface Duo
    * Galaxy Fold
 
-   the following devices have been tested on Firefox developer tool emulator and worked as intended.
+   The following devices have been tested on Firefox developer tool emulator and worked as intended.
    * galaxy S9
    * iPad
    * iPhone 6/7/8 Plus iOS 11
@@ -141,35 +199,15 @@
    Hero image: Image by [psychofladoodle](https://pixabay.com/users/psychofladoodle) from [Pixabay](https://pixabay.com)
 
    application screenshots were taken from actual products
-     * [blender](https://www.blender.org/)
-     * [krita](https://krita.org/)
-     * [Audacity](https://www.audacityteam.org/)
+   * [blender](https://www.blender.org/)
+   * [krita](https://krita.org/)
+   * [Audacity](https://www.audacityteam.org/)
 
    Font script was provided by [Font awesome](https://fontawesome.com/)
 
    Video was made by me using Blender.
-***
 
-## Further maintainability
-
-Template to add a new block to the news page**
-
-Add this to append to the "news.html" under section with the id "news-container"
-
-      <article class="news-update">
-            <img src="" alt="">
-            <div>
-                <h3></h3>
-                <p>
-                </p>
-            </div>
-        </article>
+# My personal achievements and what I feel I need to work on. 
+I wanted to learn to use the git commits and use it more often. I have realized I should write down all content that needs a fix or correction so I can have them on separate commits to make it more clear on what I have done between each commit.
  
-
-Comments for every section.
-
-***
-## My personal achievements and what I feel I need to work on.
-   * I wanted to learn to use the git commits and use it more often. I have realized I should write down all content that needs a fix or correction so I can have them on separate commits to make it more clear on what I have done between each commit.
- 
-   * I have learnt how to plan and structure a web application more efficiently, it can still be greatly improved.
+I have learnt how to plan and structure a web application more efficiently, it can still be greatly improved.
