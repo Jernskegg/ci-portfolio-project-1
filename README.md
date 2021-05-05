@@ -2,7 +2,7 @@
 
 Casper Hille
 
-Full-Stack Development course (5p)
+Full-Stack Development course (5p) | Portfolio Project 1
 ***
 
 ## planning phase
