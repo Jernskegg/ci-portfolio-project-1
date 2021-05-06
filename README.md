@@ -45,21 +45,21 @@
 
 ## interactive news feed
 
-Zoom-in feature when you hover your mouse over the specified news tile.
+   Zoom-in feature when you hover your mouse over the specified news tile.
 ## Slideshow gallery
 
-A gallery to show of work
+   A gallery to show of work
 
 ## subscription for news feed
 
-a form and a submit button where users opt-in for email updates of the news.
+   a form and a submit button where users opt-in for email updates of the news.
 
 ## add files to career application
 
-A file upload system so the user will be able to send a CV with the application for work.
+   A file upload system so the user will be able to send a CV with the application for work.
 
 ## full 4k support
-add more features to suit a full 4k screen.
+   add more features to suit a full 4k screen.
 
 ## Games section
 
@@ -129,8 +129,8 @@ add more features to suit a full 4k screen.
 
 * ### As a user, I want to contact someone so that I can book for an interview.
 
-I would load into the [home page(desktop)](docs/screenshots/shot-home-1080.png) or [home page(phone)](docs/screenshots/shot-home-720.png) and then I have to click on the contact button in the navigation bar and there I will be able to get to the [career page(desktop)](docs/screenshots/shot-contact-1080.png) or [career page(mobile)](docs/screenshots/shot-contact-720.png) to see the contact form.
-Here I would be able to fill in all details to send.
+   I would load into the [home page(desktop)](docs/screenshots/shot-home-1080.png) or [home page(phone)](docs/screenshots/shot-home-720.png) and then I have to click on the contact button in the navigation bar and there I will be able to get to the [career page(desktop)](docs/screenshots/shot-contact-1080.png) or [career page(mobile)](docs/screenshots/shot-contact-720.png) to see the contact form.
+   Here I would be able to fill in all details to send.
 
    [Image of where need to press](docs/screenshots/testcase-contact.png)
 
@@ -151,7 +151,9 @@ Here I would be able to fill in all details to send.
       add a big resolution hero image.
       Changed news columns from 3 to 4.
    
-   5. Bug where on a galaxy s5 has a horizontal scrolling.
+   5. Bug where on a galaxy s5 where the textarea causes the user to be able   to scroll horizontally.
+
+   
    
    ## supported screens and browsers
    The page is designed to have a maximum of 1920x1080 screen support.
@@ -186,13 +188,25 @@ Here I would be able to fill in all details to send.
 # Deployment
    ## via gitpod
  
-   During development I used Gitpod built-in "python3 -m http.server" command and then I could change it preview the web application during development. 
-   Then I made the port public and then I could test the web application
+   To use gitpod you have to start a repository on Github. 
+   from there if you have the gitpod plugin on your browser a green button stating "Gitpod" is available. that button redirects you to the GitPod IDE
+   
+   When it's done loading you will see down in the bottom a few tabs, when you press on terminal you will be able to input a command 
+   
+   to deploy your application through a http server you can write "Python3 -m http.server". this will open the http service and GitPod will give you a notification "A service is available on port 8000" with three buttons ( make public, open preview, open browser) so when you open your browser it will open the  index.html files, if that doesn't exist it will open the readme.md file instead.
+ 
+   This is a good place to test your applications before pushing and deploying on github.
+
  
    ## via github pages
  
-   Once I was quite happy with my progress I activated github pages by going to the repositories settings enabled pages and then had it show the master branch files. This is also where I did all the testing since this is where the final product is shown.
-
+   To deploy a web page in github pages you need to go to your repository on github. there you will see a settings tab. Once you click that you will have a list on the left. scroll down to "pages and click it.
+ 
+   there you will see a drop down menu and there you have to choose your branch of the project you want to deploy then you have to press save.
+ 
+   Once saved you'll receive a notification on the same page with the link to your newly deployed site, although note that github pages can take a few minutes before it's fully deployed.
+ 
+   When you have waited a few minutes you can click on the link provided and now you can test if everything works as intended. if not you have to update your files and push it again. Github pages will update the page for you and again, this might take a few minutes.
 
 # credits
 
@@ -208,6 +222,6 @@ Here I would be able to fill in all details to send.
    Video was made by me using Blender.
 
 # My personal achievements and what I feel I need to work on. 
-I wanted to learn to use the git commits and use it more often. I have realized I should write down all content that needs a fix or correction so I can have them on separate commits to make it more clear on what I have done between each commit.
+   I wanted to learn to use the git commits and use it more often. I have realized I should write down all content that needs a fix or correction so I can have them on separate commits to make it more clear on what I have done between each commit.
  
-I have learnt how to plan and structure a web application more efficiently, it can still be greatly improved.
+   I have learnt how to plan and structure a web application more efficiently, it can still be greatly improved.
