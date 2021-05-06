@@ -201,6 +201,19 @@ textarea {
     border-color: #f9cb9c;
 }
 
+.textarea-input {
+    border: 1px solid #9c9c9c;
+    border-radius: 3px;
+    padding: 5px;
+    resize: none;
+    width: 200%;
+    min-width: 200px;
+}
+
+.textarea-input:hover {
+    border-color: #f9cb9c;
+}
+
 .form-button {
     margin: 15px 0;
     height: 50px;
@@ -214,14 +227,6 @@ textarea {
     background: #9c9c9c;
     border-color: #f9cb9c;
     font-size: 100%;
-}
-
-.big {
-    display: block;
-}
-
-.small {
-    display: none;
 }
 
 /* news */
@@ -349,14 +354,6 @@ footer {
 
     .form-button {
         width: 200px;
-    }
-
-    .big {
-        display: none;
-    }
-
-    .small {
-        display: block;
     }
 }
 

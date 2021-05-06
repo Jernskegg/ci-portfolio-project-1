@@ -151,7 +151,10 @@
       add a big resolution hero image.
       Changed news columns from 3 to 4.
    
-   5. Bug where on a galaxy s5 where the textarea causes the user to be able   to scroll horizontally.
+   5. Bug where on a galaxy s5 where the textarea causes the user to be able to scroll horizontally.
+
+         implemented a Fix by removing the ability to resize the text area and having it resize using percentage and a min-width of 200px.
+         (this bug is happend at a different user using chrome developer tools, Galaxy s5 emulater tool and I can't recreate it.)
 
    
    
